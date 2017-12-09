@@ -1,6 +1,6 @@
 ## Chegando em segurança
 
-O objetivo deste jogo é guiar os gatos para a segurança utilizando um caminho seguro para que eles cheguem a porta. Vamos criar uma variável de placar para manter a contagem de quantos gatos conseguram chegar a porta.
+O objetivo deste jogo é guiar os gatos para a segurança utilizando um caminho seguro para que eles cheguem a porta. Vamos criar uma variável de placar para manter a contagem de quantos gatos conseguiram chegar a porta.
 
 + Criar uma variável chamada `placar`.
 
