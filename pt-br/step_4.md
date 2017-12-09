@@ -1,33 +1,33 @@
-## Cloning cats
+## Clonando os gatos
 
-We want to generate an infinite stream of cats that the player will guide along the path to the exit.
+Queremos gerar um fluxo infinito de gatos que o jogador guie ao longo do caminho até a saída.
 
-+ Click on the sprite called **Cat**, and add some code to make it invisible, and also to clone it every three seconds.
++ Clique no ator chamado ** Cat ** e adicione algum código para torná-lo invisível, e também para cloná-lo a cada três segundos.
 
-![Clone a cat](images/clone-a-cat.png)
+![Clone um gato](images/clone-a-cat.png)
 
-If you run the program at the moment, nothing will happen. Let's make each cloned cat appear and fall out of the sky, so we can check that a new one is being created every three seconds.
+Se você executar o programa no momento, nada acontecerá. Vamos fazer aparecer cada gato clonado cair do céu, então podemos verificar que um novo está sendo criado a cada três segundos.
 
-+ Add some code to tell the sprite that when it starts as a clone, it should become visible and fall until it reaches the blue floor which is drawn on the stage
++ Adicione algum código para dizer ao ator que quando ele começa como um clone, deve tornar-se visível e cair até chegar ao chão azul que é desenhado no palco
 
 --- hints ---
 --- hint ---
-`When the sprite starts as a clone`  `show` the sprite. `Repeat` this until it `touches` the blue stage. `Change` the y coordinate of the sprite by `-2`.
+`Quando o ator começa como um clone`  `mostre` o ator. `Repita` isso até `tocar` o palco azul. `Mude` a coordenada y do ator para `-2`.
 --- /hint ---
 
 --- hint ---
-Here are the code blocks you'll need:
+Aqui estão os blocos de código que você precisará:
 
-![Drawing with the pen hint](images/falling-cat-hint.png)
+![Desenho com a sugestão da caneta](images/falling-cat-hint.png)
 --- /hint ---
 
 --- hint ---
-This is what your code should look like:
-![Drawing with the pen solution](images/falling-cat-solution.png)
+É assim que o seu código deve aparecer:
+![Desenho com a solução da caneta](images/falling-cat-solution.png)
 --- /hint ---
 
 --- /hints ---
 
-When you press the green flag, you should see a new cat falling out of the sky every three seconds and landing in a big pile of overlapping cats on the blue floor at the bottom.
+Quando você pressionar a bandeira verde, você deve ver um novo gato caindo do céu a cada três segundos e pousando em uma grande pilha de gatos sobrepostos no chão azul no fundo.
 
-![Falling cats](images/falling-cats.png)
+![Gatos caindo](images/falling-cats.png)

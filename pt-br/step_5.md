@@ -1,62 +1,62 @@
-## Moving cats
+## Movendo gatos
 
-When a cat has appeared and fallen until it reaches the floor, we want it to step slowly to the right.
+Quando um gato aparecer e cair até chegar ao chão, queremos que ele pise lentamente para a direita.
 
-+ Add some code to the `when I start as a clone` section to make the cat sprite move ten steps, and switch between the two costumes every 0.1 seconds to make it look like the cat is walking.
++ Adicione um código ao `quando eu começar como clone` a seção para fazer o ator do gato mover dez passos, e alternar entre as duas fantasias a cada 0.1 segundos para fazer parecer que o gato está caminhando.
 
-![Two costumes](images/two-costumes.png)
+![Duas fantasias](images/two-costumes.png)
 
 --- hints ---
 --- hint ---
-The cat sprite should `move 10 steps`, and `switch costume` every `0.1 seconds`. This code (as well as the code to make the cat fall) should repeat `forever`.
+O ator do gato deve `mover 10 passos`, e `trocar de fantasia` a cada `0.1 segundos`. Este código (bem como o código para fazer cair o gato) deve repetir `para sempre`.
 --- /hint ---
 
 --- hint ---
-Here are the code blocks you'll need:
-![Moving cat hint](images/moving-cat-hint.png)
+Aqui estão os blocos de código que você precisará:
+![Sugestão do gato em movimento](images/moving-cat-hint.png)
 --- /hint ---
 
 --- hint ---
-This is what your code should look like:
-![Moving cat hint](images/moving-cat-solution.png)
+É assim que o seu código deve aparecer:
+![Sugestão de gato em movimento](images/moving-cat-solution.png)
 --- /hint ---
 
 --- /hints ---
 
-+ Press the green flag and check that the cats now move along the blue platform at the bottom.
++ Pressione a bandeira verde e verifique se os gatos agora se movem ao longo da plataforma azul na parte inferior.
 
-You will notice that, if you draw a bridge across the gap so that the cats can get all the way to the right edge of the screen, they end up getting stuck walking into the wall.
+Você notará que, se você desenhar uma ponte sobre o espaço para que os gatos possam chegar até a borda direita da tela, eles acabam ficando presos entrando na parede.
 
-![Flailing cats at the edge](images/flailing-at-edge.png)
+![Gatos presos na borda](images/flailing-at-edge.png)
 
-+ Remove the forever loop you added, and instead add a different loop to make the cats only walk until they reach an edge. When a cat reaches the edge of the screen, it should disappear.
++ Remova o loop para sempre que você adicionou, e, em vez disso, adicione um loop diferente para que os gatos só caminhem até chegarem a uma borda. Quando um gato atinge a borda da tela, deve desaparecer.
 
 --- hints ---
 --- hint ---
-Remove the forever loop and replace it with a different loop which repeats `until the cats are touching the edge`. Once they reach an edge, add a block to `delete the clone`, which will make the cat disappear.
+Remova o loop para sempre e substitua-o por um loop diferente que repete `até que os gatos toquem a borda`. Uma vez que eles alcançam uma vantagem, adicione um bloco para `apague o clone`, o que fará desaparecer o gato.
 --- /hint ---
 
 --- hint ---
-Here are the new code blocks you'll need to add:
+Aqui estão os novos blocos de código que você precisará adicionar:
 
-![Disappear at edge hint](images/disappear-at-edge-hint.png)
+![Desaparecer na sugestão da borda](images/disappear-at-edge-hint.png)
 --- /hint ---
 
 --- hint ---
-This is what your code should look like:
-![Disappear at edge solution](images/disappear-at-edge-solution.png)
+É assim que o seu código deve aparecer:
+![Desaparecer na solução de borda](images/disappear-at-edge-solution.png)
 --- /hint ---
 
 --- /hints ---
 
-+ Press the green flag and check that the cats disappear when they reach the edge of the screen.
++ Pressione a bandeira verde e verifique se os gatos desaparecem quando atingem a borda da tela.
 
-You might notice that the cats don't disappear properly if they fall into the hole, they just get stuck at the bottom. This is because the sprite is getting stuck trying to fall!
+Você pode notar que os gatos não desaparecem devidamente se caírem no buraco, eles simplesmente ficam presos no fundo. Isso ocorre porque o ator está ficando preso tentando cair!
 
-This code tells the cat to keep falling until it touches blue. However, in the hole the cat will never reach blue, so it is stuck forever.
+Este código diz ao gato para continuar caindo até tocar em azul. Contudo, no buraco o gato nunca chegará ao azul, então está preso para sempre.
 
-![Cats get stuck](images/cats-get-stuck.png)
+![Gatos ficam presos](images/cats-get-stuck.png)
 
-+ Add more blocks to this loop to tell it to repeat until it is touching blue `or touching the edge`. This way, the sprite will stop trying to fall if it reaches the edge of the screen.
++ Adicione mais blocos a este loop para dizer para repetir até tocar em azul `ou tocando a borda`. Deste jeito, o ator irá parar de tentar cair se atingir a borda da tela.
 
-![Cats disappear properly at the bottom](images/disappear-at-bottom.png)
+![Os gatos desaparecem devidamente no fundo](images/disappear-at-bottom.png)
