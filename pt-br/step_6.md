@@ -16,7 +16,7 @@ O gato deve `mover acima 2`, e isto deve `repetir até que ele não esteja tocan
 --- hint ---
 Aqui estão os blocos de código que você vai precisar:
 ![Dica movendo acima](images/move-up-hint.png)
---- /hint ---
+--- /hint ---  
 
 --- hint ---
 É assim que seu código deve parecer:

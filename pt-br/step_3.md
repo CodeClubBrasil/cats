@@ -59,6 +59,6 @@ Assim é como seu código deve parecer:
 
 Você provavelmente irá notar que um ponto azul sempre aparece no canto superior direito do seu palco (circundado em vermelho). Isto acontece porque quando você clica sobre a bandeira verde para iniciar o jogo, o mouse é pressionado, então a caneta imadiatamente inicia o desenho.
 
-+ Adicione um bloco para esperar meio segundo antes do bloco `sempre` para impedir que isto aconteça. Caso ainda desenhe um ponto, adicione um bloco levantar caneta logo depois do bloco `quando clicar em bandeira verde`.
++ Adicione um bloco para esperar meio segundo antes do bloco `sempre` para impedir que isto aconteça. Caso ainda desenhe um ponto, adicione mais tempo de espera.
 
 ![Espere meio segundo](images/wait-half-second.png)
