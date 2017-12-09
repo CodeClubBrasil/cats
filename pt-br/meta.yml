@@ -1,0 +1,20 @@
+title: GATOS!
+hero_image: images/banner.png
+description: Crie um simples jogo de seguimento de linha no Scratch. Guie o gato em segurança e não deixe nenhum cair através dos buracos!
+theme: orange # possible values: blue, green, navy, orange, red, turquoise, violet, yellow
+duration: 2 # possible values: 1, 2 or 3
+listed: true
+ingredient: false
+copyedit: true
+curriculum: creator, design-0, programming-0, phys-comp-0, manufacture-0, community-0
+interests: "games"
+technologies: "scratch"
+steps:
+  - title: Introdução
+  - title: O que você vai precisar
+  - title: Desenhando linhas
+  - title: Clonando gatos
+  - title: Movendo gatos
+  - title: Aderindo as linhas
+  - title: Chegando em segurança
+  - title: "Desafio: Mais obstáculos"
