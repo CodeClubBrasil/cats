@@ -1,64 +1,64 @@
-## Drawing lines
+## Desenhando linhas
 
-+ Open the starter project
++ Abra o projeto de início
 
 --- collapse ---
 ---
-title: I'm using Scratch online
+title: Eu estou usando Scratch online
 ---
 
-+ Open the 'CATS!' Scratch starter project at [jumpto.cc/cats-go](http://jumpto.cc/cats-go){:target="_blank"}.
++ Abra o projeto Scratch de início 'GATOS!' em [jumpto.cc/cats-go](http://jumpto.cc/cats-go){:target="_blank"}.
 
-+ If you have a Scratch account, you can click on **Remix** in the top right-hand corner to save a copy of the project to your account.
++ Se você tem uma conta Scratch, você pode clicar em  **Remix** no canto superior direito para salvar uma copia do projeto na sua conta.
 
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: I'm using Scratch offline
+title: Eu estou usando Scratch offline
 ---
 
-Download the [cats.sb2](resources/cats.sb2){:target="_blank"} Scratch starter project, and open it using the offline editor.
+Baixar o [cats.sb2](resources/cats.sb2){:target="_blank"} projeto de início Scratch, e abrir ele usando o editor offline.
 
 --- /collapse ---
 
-+ Click on the sprite called **Pen**, and add code to set the pen colour to the same blue as the obstacles on the stage. Clear the screen and set the pen size to 5.
++ Clique sobre o ator chamado **Pen**, e adicione código para definir a cor da caneta para o mesmo azul dos obstáculos do palco. Limpe a tela e defina o tamanho da caneta para 5.
 
-![Set pen color](images/pen-color.png)
+![Defina cor da caneta](images/pen-color.png)
 
-You can select a colour by clicking on the colour block (circled) to get the pipette cursor, followed by clicking on the colour you want on the stage.
+Você pode selecionar a cor clicando sobre o bloco de cor (circundado) para trocar o cursor para pipeta, em seguida clique sobre a cor que deseja do palco.
 
-+ Add some more code to make the sprite follow the mouse pointer. Test your program to check that the code works.
++ Adicione um pouco mais de código para fazer o personagem seguir o ponteiro do mouse. Teste o seu programa para verificar que o código funciona.
 
 [[[generic-scratch-saving]]]
 
-+ Add some code to tell the sprite to draw a line on the stage if the mouse button is pressed down.
++ Adicione algum código para dizer ao ator para desenhar uma linha no palco se o botão do mouse for apertado.
 
 --- hints ---
 --- hint ---
-`If` the `mouse is down`, put the `pen down`. `Else` put the `pen up`.
+`Se` o `mouse pressionado`, então coloque `use a caneta`. `Senão` coloque `levante a caneta`.
 --- /hint ---
 
 --- hint ---
-Here are the code blocks you'll need:
+Aqui estão os blocos de código que você vai precisar:
 
-![Drawing with the pen hint](images/draw-with-pen-hint.png)
+![Desenhando com a dica da caneta](images/draw-with-pen-hint.png)
 --- /hint ---
 
 --- hint ---
-This is what your code should look like:
-![Drawing with the pen solution](images/draw-with-pen-solution.png)
+Assim é como seu código deve parecer:
+![Desenhando com a solução da caneta](images/draw-with-pen-solution.png)
 --- /hint ---
 
 --- /hints ---
 
-+ Test your code. You should be able to click and drag with the mouse to draw a blue line on the screen.
++ Teste seu código. Você deve ser capaz de clicar e arrastar com o mouse para desenhar uma linha azul na tela.
 
-![Draw a line](images/draw-a-line.png)
+![Desenhe uma linha](images/draw-a-line.png)
 
-You will probably notice that a blue dot always appears in the top right corner of your stage (circled in red). This is because when you click the green flag to start the game, the mouse is pressed down so the pen immediately starts drawing.
+Você provavelmente irá notar que um ponto azul sempre aparece no canto superior direito do seu palco (circundado em vermelho). Isto acontece porque quando você clica sobre a bandeira verde para iniciar o jogo, o mouse é pressionado, então a caneta imadiatamente inicia o desenho.
 
-+ Add a block to wait one second before the `forever` block to stop this from happening.
++ Adicione um bloco para esperar meio segundo antes do bloco `sempre` para impedir que isto aconteça. Caso ainda desenhe um ponto, adicione um bloco levantar caneta logo depois do bloco `quando clicar em bandeira verde`.
 
-![Wait half a second](images/wait-half-second.png)
+![Espere meio segundo](images/wait-half-second.png)
