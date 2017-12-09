@@ -1,28 +1,28 @@
-## Sticking to the lines
+## Colando nas linhas
 
-When testing your game, you might notice that if you draw a low bridge between the two platforms, or a line that slopes upwards, the cats end up walking through the platform rather than on top of it!
+Quando estiver testando o seu jogo, você deve notar que se você desenhar uma ponte baixa entre as duas plataformas, ou uma linha que suba, os gatos irão terminarão andando através da plataforma ao invés de sobre ela!
 
-![Cats walking through the platform](images/cat-walk-through-platform.png)
+![Gatos andando através da plataforma](images/cat-walk-through-platform.png)
 
-+ In the code for the cat sprite, add another loop after the loop which makes the cat fall. This time, the loop should tell the cat to move upwards by two until it is not touching blue.
++ No código do personagem gato, adicione um novo laço após o laço que faz o gato cair. Desta vez, o laço deve dizer ao gato para move para cima 2 unidades até que ele não esteja tocando o azul.
 
-![Add code here](images/add-code-here.png)
+![Adicione código aqui](images/add-code-here.png)
 
 --- hints ---
 --- hint ---
-The cat should`move up 2`, and this should `repeat until it is not touching blue`.
+O gato deve `mover acima 2`, e isto deve `repetir até que ele não esteja tocando o azul`.
 --- /hint ---
 
 --- hint ---
-Here are the code blocks you'll need:
-![Moving up hint](images/move-up-hint.png)
---- /hint ---
+Aqui estão os blocos de código que você vai precisar:
+![Dica movendo acima](images/move-up-hint.png)
+--- /hint ---  
 
 --- hint ---
-This is what your code should look like:
-![Moving up hint](images/move-up-solution.png)
+É assim que seu código deve parecer:
+![Solução movendo acima](images/move-up-solution.png)
 --- /hint ---
 
 --- /hints ---
 
-+ Click the green flag and try drawing a line which slopes upwards. Check that your cat follows the line.
++ Clique na bandeira verde e tente desenhar uma linha que suba. Verifique que seu gato segue a linha.
