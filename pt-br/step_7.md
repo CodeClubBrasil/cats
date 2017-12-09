@@ -1,26 +1,26 @@
-## Getting to safety
+## Chegando em segurança
 
-The object of the game is to guide the cats to safety by creating a safe path for them to reach the door. Let's make a score variable to keep track of how many cats have successfully reached the door.
+O objetivo deste jogo é guiar os gatos para a segurança utilizando um caminho seguro para que eles cheguem a porta. Vamos criar uma variável de placar para manter a contagem de quantos gatos conseguram chegar a porta.
 
-+ Create a variable called `score`.
++ Criar uma variável chamada `placar`.
 
 [[[generic-scratch-add-variable]]]
 
-+ Add some code to your cat sprite to add one to the score each time a cat reaches the door. Don't forget to also set the score to zero at the start of the game.
++ Adicione algum código no seu ator Sprite1(gato) para adicionar um ao placar cada vez que um gato alcançar a porta. Não esqueça de também definir zero ao placar no inicio do jogo.
 
 --- hints ---
 --- hint ---
-`If` the cat is `touching the door sprite`, then `add 1 to the score`.
+`Se` o gato está `tocando o ator Door(porta)`, então `adicione 1 ao placar`.
 --- /hint ---
 
 --- hint ---
-Here are the new code blocks you'll need to add:
-![Score points hint](images/score-points-hint.png)
+Aqui estão os novos blocos de código que você precisará adicionar:
+![Dica placar de pontos](images/score-points-hint.png)
 --- /hint ---
 
 --- hint ---
 This is what your code should look like:
-![Score points solution](images/score-points-solution.png)
+![Solução placar de pontos](images/score-points-solution.png)
 --- /hint ---
 
 --- /hints ---

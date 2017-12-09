@@ -4,7 +4,7 @@ Quando estiver testando o seu jogo, você deve notar que se você desenhar uma p
 
 ![Gatos andando através da plataforma](images/cat-walk-through-platform.png)
 
-+ No código do personagem gato, adicione um novo laço após o laço que faz o gato cair. Desta vez, o laço deve dizer ao gato para move para cima 2 unidades até que ele não esteja tocando o azul.
++ No código do ator Sprinte1(gato), adicione um novo laço após o laço que faz o gato cair. Desta vez, o laço deve dizer ao gato para move para cima 2 unidades até que ele não esteja tocando o azul.
 
 ![Adicione código aqui](images/add-code-here.png)
 
